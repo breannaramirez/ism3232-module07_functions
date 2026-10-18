@@ -17,14 +17,16 @@ What the error means: Python can't compare an integer and a string using >.
 How I fixed it: I removed the quotation marks around 1000 so that Python compares two integers instead of an integer and a string.
 
 ## After Fixing Both Bugs
-Final output:
-Did pytest pass?
+Final output: Total: $5150.00 across 3 records
+True
+Did pytest pass? Yes, all 5 tests passed.
 
 ## AI Literacy Reflection
-Did I use AI? Yes
+Did I use AI? No
 If yes -- exact prompt I used:
 What AI explained:
-What I changed myself:
-Can I explain every fixed line?
+What I changed myself: I identified the typo in the dictionary key and the incorrect comparison between a string and an integer. I corrected both errors and ran pytest to verify my code.
+Can I explain every fixed line? Yes
 
 ## What I learned
+I learned how to read Python tracebacks to find where errors occur and how to use print statements to inspect values while debugging.
